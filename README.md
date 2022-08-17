@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @RubXkuB AKA GHARIB
 - 🖥️ I am Network & System Engineer
-- 🔒 Working in Cybersecurity
+- 🔒 Pentester certified
 - 💞️ I love coffee ☕
 
 <!---
