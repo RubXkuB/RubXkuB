@@ -1,0 +1,45 @@
+Here some useful commands I have taken during the INE learning path to pass the eJPT.
+A pentest engagement needs some methodology.
+The INE learning path provide all the basics needed to pass succesfuly the certification exam.
+
+NETWORK (all IPs are fake)
+Check interfaces : 
+# ip addr
+
+#check host are up
+nmap 192.50.20.0/24
+
+#check more with ping scan nmap
+nmap -sP 192.50.20.0/24
+
+#check single host (basic scan + all ports)
+nmap -p- blabla.fake.website
+
+#OS detection
+nmap -O blabla.fake.website
+
+#Scan all ports + version + script scanning
+nmap -p- -sC -sV blabla.fake.website
+
+##agressive detection which enables OS detection (-O), version detection (-sV), script scanning (-sC), and traceroute (--traceroute) and few more probes
+nmap -A blabla.fake.website
+
+#scan to detect firelwall settings
+nmap -sA blabla.fake.website
+
+##for opened port 21 on range with wildcard (not closed, not filtered, not wrapped)
+nmap -p21 -sV 192.168.0.* --open
+
+#scan many hosts
+nmap -p- 192.168.1.1,2,3,4,5,6
+#or
+nmap -p- 192.168.1.1-6
+
+#check  with script example 
+nmap -p27017 --script=mongodb-info target-2 | less
+
+
+
+
+
+
