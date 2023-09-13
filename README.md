@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @RubX AKA GHARIB
+- 👋 Hi, I’m @RubX 
 - 🖥️ I am Network & System Engineer
 - 🔒 Pentester certified
 - 💞️ I love coffee ☕
